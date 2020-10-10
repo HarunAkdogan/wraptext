@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args){
-        List<String> words = wrapText("Sakın kelime uzunluğu on beş karakteri geçmesin ayrıca kontrol gerekir.", 12);
+        List<String> words = wrapText("Sakın kelime uzunluğu on iki karakteri geçmesin ayrıca kontrol gerekir.", 12);
         System.out.println(words);
     }
 
